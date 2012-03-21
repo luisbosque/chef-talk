@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "recipe[git::default]",
+    "recipe[nginx::default]",
+    "recipe[web_app::default]"
+  ]
+}
