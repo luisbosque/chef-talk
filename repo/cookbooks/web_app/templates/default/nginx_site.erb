@@ -1,0 +1,9 @@
+server {
+  listen   80;
+  server_name  <%= @application_name %>;
+
+  location / {
+    root   <%= @application_root %>;
+    index  index.html index.htm;
+  }
+}
